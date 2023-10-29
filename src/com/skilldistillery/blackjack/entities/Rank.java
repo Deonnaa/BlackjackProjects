@@ -13,10 +13,9 @@ public enum Rank {
 	public int getValue() {
 		return value;
 	}
-	
-//	@Override
-//	publicString toString() {
-//		return politeName
-//	}
 
+	@Override
+	public String toString() {
+		return name().toLowerCase();
+	}
 }

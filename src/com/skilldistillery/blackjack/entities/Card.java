@@ -5,13 +5,12 @@ import java.util.Objects;
 public class Card {
 	private Suit suit;
 	private Rank rank;
-
-	private Card() {
-	}
+	private boolean isFaceUp;
 
 	public Card(Suit suit, Rank rank) {
 		this.suit = suit;
 		this.rank = rank;
+		this.isFaceUp = true;
 	}
 
 	@Override
@@ -33,12 +32,16 @@ public class Card {
 
 	@Override
 	public String toString() {
-		return rank + " of " + suit;
+		return isFaceUp ? rank + " of " + suit : "[Face Down Card]";
 	}
 
 	public int getValue() {
 		return rank.getValue();
 	}
+	
+	public void setValue() {
+        this.isFaceUp = isFaceUp;
+    }
 
 	public Suit getSuit() {
 		return suit;
@@ -47,5 +50,13 @@ public class Card {
 	public Rank getRank() {
 		return rank;
 	}
+	
+	public boolean isFaceUp() {
+        return isFaceUp;
+    }
+
+    public void setFaceUp(boolean isFaceUp) {
+        this.isFaceUp = isFaceUp;
+    }
 
 }

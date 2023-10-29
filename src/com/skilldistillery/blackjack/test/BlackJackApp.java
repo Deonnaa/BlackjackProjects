@@ -1,4 +1,4 @@
-package com.skilldistillery.blackjack.app;
+package com.skilldistillery.blackjack.test;
 
 import java.util.Scanner;
 
