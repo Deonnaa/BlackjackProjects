@@ -49,10 +49,10 @@ With this application, users can enjoy playing Blackjack against an automated de
 	- Player wins, dealer busts!
 - 3
 	- Player: 10 of Hearts, 6 of Spades (Total: 16)
-	- Dealer: 10 of Hearts, 7 of Diamonds (Total: 17)
+	- Dealer: 10 of Diamonds, 7 of Diamonds (Total: 17)
 	- Dealer wins!
 - 4
 	- Player: 10 of Hearts, 6 of Spades (Total: 16)
-	- Dealer: 10 of Hearts, 6 of Spades (Total: 16)
+	- Dealer: 10 of Spades, 6 of Diamonds (Total: 16)
 	- It's a tie!
 
