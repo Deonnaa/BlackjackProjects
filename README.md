@@ -20,8 +20,8 @@ With this application, users can enjoy playing Blackjack against an automated de
 2. Compile and run the BlackJackApp.java file.
 3. The program will deal two cards to the player and the dealer, with one of the dealer's cards hidden.
 4. The user will be prompted to choose whether to "Hit" or "Stand":
-- Hit: The player is dealt another card.
-- Stand: The player ends their turn.
+	- Hit: The player is dealt another card.
+ 	- Stand: The player ends their turn.
 5. The dealer will then play their hand according to Blackjack rules.
 6. The program will determine the outcome (win, lose, or tie) and prompt the user to play again.
 
@@ -39,20 +39,20 @@ With this application, users can enjoy playing Blackjack against an automated de
 - Updating Object Properties: Update the value of cards within the hand as you add.
 
 ## Usage Examples
-- Player: 10 of Hearts, Ace of Spades (Total: 21)
-- Dealer: Queen of Diamonds, [Face Down Card]
-- BlackJack! Player wins.
-
-- Player: 10 of Hearts, 6 of Spades (Total: 16)
-- Dealer: Queen of Diamonds, 6 of Clubs, 9 of Hearts (Total: 25)
-- Player wins, dealer busts!
-
-
-- Player: 10 of Hearts, 6 of Spades (Total: 16)
-- Dealer: 10 of Hearts, 7 of Diamonds (Total: 17)
-- Dealer wins!
-
-- Player: 10 of Hearts, 6 of Spades (Total: 16)
-- Dealer: 10 of Hearts, 6 of Spades (Total: 16)
-- It's a tie!
+- 1
+	- Player: 10 of Hearts, Ace of Spades (Total: 21)
+	- Dealer: Queen of Diamonds, [Face Down Card]
+	- BlackJack! Player wins.
+- 2
+	- Player: 10 of Hearts, 6 of Spades (Total: 16)
+	- Dealer: Queen of Diamonds, 6 of Clubs, 9 of Hearts (Total: 25)
+	- Player wins, dealer busts!
+- 3
+	- Player: 10 of Hearts, 6 of Spades (Total: 16)
+	- Dealer: 10 of Hearts, 7 of Diamonds (Total: 17)
+	- Dealer wins!
+- 4
+	- Player: 10 of Hearts, 6 of Spades (Total: 16)
+	- Dealer: 10 of Hearts, 6 of Spades (Total: 16)
+	- It's a tie!
 
