@@ -20,8 +20,8 @@ With this application, users can enjoy playing Blackjack against an automated de
 2. Compile and run the BlackJackApp.java file.
 3. The program will deal two cards to the player and the dealer, with one of the dealer's cards hidden.
 4. The user will be prompted to choose whether to "Hit" or "Stand":
-- Hit: The player is dealt another card.
-- Stand: The player ends their turn.
+  - Hit: The player is dealt another card.
+  - Stand: The player ends their turn.
 5. The dealer will then play their hand according to Blackjack rules.
 6. The program will determine the outcome (win, lose, or tie) and prompt the user to play again.
 
