@@ -26,10 +26,6 @@ public class BlackJackApp {
 
 			dealer.shuffleDeck();
 
-			// Hardcode a 21 for the player
-//		player1.addCardToHand(new Card("♥ hearts ♥", "KING"));
-//		player1.addCardToHand(new Card("♥ hearts ♥", "KING"));
-
 			// Deal two cards to the player and two cards to the dealer
 			player.addCardToHand(dealer.dealCard());
 
